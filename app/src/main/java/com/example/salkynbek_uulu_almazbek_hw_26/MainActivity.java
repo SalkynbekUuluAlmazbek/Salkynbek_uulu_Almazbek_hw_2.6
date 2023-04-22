@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
         mEditEmailText.setOnKeyListener((view, i, keyEvent) -> {
 
-            if (mEditEmailText.getText().toString().equals(" ")) {
+            if (mEditEmailText.getText().toString().equals("")) {
                 mButtonInsert.setBackgroundTintList(getColorStateList(R.color.grey));
             } else {
                 mButtonInsert.setBackgroundTintList(getColorStateList(R.color.orange));
